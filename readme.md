@@ -39,7 +39,7 @@ Coming-Soon.jpg: Image by starline from Freepik
 Screenshots
 Here is a screenshot of my Professional Portfolio project:
 Website Project Image
-
+<img src="./assets/images/Module One Screen.png>
 
 License
 This project is licensed under the MIT License.
