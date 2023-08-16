@@ -139,7 +139,6 @@ figcaption {
   background-color: var(--background);
   padding: 5px;
   font-family: var(--heading-font);
-  
 }
 
 /* Card paragraph styles */
@@ -208,36 +207,7 @@ figcaption {
 }
 /* End card Styling */
 
-/* Add styles for the footer */
-footer {
-  text-align: center;
-  background-color: #c7c1e6;
-  padding: 20px;
-}
-
-.social-icons {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-}
-
-.social-icons li {
-  font-size: 24px;
-}
-
-.social-icons a {
-  color: #333;
-  text-decoration: none;
-}
-
-/* Adjust color and hover effects */
-.social-icons a:hover {
-  color: orangered;
-}
-
-/* Style the footer */
+/* Footer styles */
 footer {
   background-color: #333;
   color: #fff;
@@ -245,15 +215,16 @@ footer {
   padding: 20px;
 }
 
-/* Style the icon container */
-.icon-container {
+/* Social icons container */
+.social-icons {
+  list-style: none;
+  padding: 0;
   display: flex;
-  justify-content: space-between;
-  max-width: 300px;
-  margin: 0 auto;
+  justify-content: center;
+  gap: 50px;
 }
 
-/* Style the social icons */
+/* Individual social icon */
 .social-icon {
   color: #fff;
   font-size: 24px;
@@ -261,9 +232,16 @@ footer {
   transition: color 0.3s ease;
 }
 
+.social-icon img {
+  width: 48px; /* Adjust the size of the icons as needed */
+  height:  48px;
+}
+
+/* Hover effect */
 .social-icon:hover {
   color: #FF5733; /* Placeholder hover color */
 }
+
 
   /* Media query for TVs and larger screens */
   @media (min-width: 1601px) {
@@ -275,7 +253,7 @@ footer {
       font-size: 3rem; /* Adjust font size for TV/large screens */
     }
   }
-  
+
  /* Media query for computer monitors */
 @media (min-width: 991px) and (max-width: 1600px) {
   header {
