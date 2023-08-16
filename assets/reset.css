@@ -1,0 +1,83 @@
+/* Reset.css concept based on Eric Meyer's Reset CSS */
+/* Source: http://meyerweb.com/eric/tools/css/reset/ */
+/* Original Author: Eric Meyer */
+/* Reset.css generated with the assistance of ChatGPT by OpenAI utilizing the above reference */
+/* Source: https://beta.openai.com/ */
+/* Author: David Gray */
+
+/* Reset default margin and padding */
+body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, code, dl, dt, dd, ol, ul, li, figure, figcaption, form, fieldset, legend, input, textarea, button, select {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* Correct the line height in all browsers */
+body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, code, ul, ol, li, dl, dd, fieldset, figure {
+  line-height: 1.5;
+}
+
+/* Make sure the text remains visible when font fallback occurs */
+body {
+  text-rendering: optimizeLegibility;
+}
+
+/* Remove list styles (bullets/numbers) */
+ol, ul {
+  list-style: none;
+}
+
+/* Correct font and color inheritance and padding in IE 8/9/10/11 */
+button, input, optgroup, select, textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+/* Reset button styles */
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+  -webkit-appearance: button; /* WebKit browsers */
+  appearance: button; /* Standard syntax */
+  cursor: pointer;
+}
+
+/* Make sure svg elements are resizable */
+svg {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Clear floated elements */
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Reset box sizing to content-box for most elements */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+
+/* Make sure svg elements are resizable */
+svg {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Clear floated elements */
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Reset box sizing to content-box for most elements */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
