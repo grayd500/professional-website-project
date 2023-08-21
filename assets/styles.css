@@ -215,6 +215,10 @@ footer {
   padding: 20px;
 }
 
+h3 {
+  color: dodgerblue;
+}
+
 /* Social icons container */
 .social-icons {
   list-style: none;
